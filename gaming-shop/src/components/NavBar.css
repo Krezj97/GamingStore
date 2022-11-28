@@ -1,0 +1,19 @@
+.nombre_store{
+    color:white
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(56, 56, 56);
+    padding: 10px;
+    
+
+}
+
+.buttons-navbar{
+    background:none;
+    border: none;
+    color: white;
+
+}

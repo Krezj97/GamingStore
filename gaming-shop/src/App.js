@@ -1,23 +1,12 @@
-
 import './App.css';
+import Navbar from './components/NavBar';
+import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-        <p>
-        Hola Krezj
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Tu puedes
-        </a>
-      </header>
+      <Navbar/>
+      <ItemListContainer greeting={"Hola Gamer!"}/>
     </div>
   );
 }
